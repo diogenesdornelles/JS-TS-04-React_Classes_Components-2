@@ -1,0 +1,17 @@
+.primary_color{
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.primary_color::-webkit-color-swatch-wrapper {
+  padding: 1px; 
+}
+
+.primary_color::-webkit-color-swatch {
+  border: 1px solid #cccccc;
+  border-radius: 50%;
+}
